@@ -1,0 +1,4 @@
+System.InvalidOperationException: Невозможно считывать клавиши, когда любое приложение не имеет консоли или ввод данных на консоли был переадресован из файла. Попробуйте использовать Console.Read.
+   в System.Console.ReadKey(Boolean intercept)
+   в System.Console.ReadKey()
+   в ExportDll.Class1.Main(String[] arrStr)
